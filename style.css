@@ -811,6 +811,15 @@ transform: rotate(3deg) scale(1.1);
   .typed {
     font-size: 1.5rem;
   }
+  .about .content .col-left .img-card .img1 {
+    display: none;
+  }
+
+   .about .content .col-left .img-card .img2{
+      display: visible;
+       overflow: hidden;
+   }
+
   
 }
 
@@ -820,5 +829,14 @@ transform: rotate(3deg) scale(1.1);
   .type-br {
     display: none;
   }
+   .about .content .col-left .img-card .img1 {
+     display: visible;
+      overflow: hidden;
+   }
+
+   .about .content .col-left .img-card .img2 {
+     display: none;
+      overflow: hidden;
+   }
   
 }
